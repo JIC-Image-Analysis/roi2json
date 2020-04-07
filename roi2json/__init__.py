@@ -37,4 +37,10 @@ def roi_from_fpath(roi_fpath):
         'coords': coords
     }
 
+    if roi['type'] == 'line':
+        roi['x1'] = x1
+        roi['y1'] = y1
+        roi['x2'] = x2
+        roi['y2'] = y2
+
     return roi
