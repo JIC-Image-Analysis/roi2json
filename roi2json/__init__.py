@@ -2,6 +2,7 @@ import struct
 
 
 ROI_TYPES = {
+    1: 'rect',
     3: 'line',
     5: 'polyline',
     7: 'freehand',
